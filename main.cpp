@@ -1,7 +1,12 @@
 #include <iostream>
 
+#include "sandbox.h"
+
+using namespace std;
+
 int main(int argc, char const *argv[])
 {
-    std::cout << "Привет Дима К. :3" << std::endl;
+    cout << SimpleExample() << endl;
+    cout << "Привет Дима К. :3" << endl;
     return 0;
 }
